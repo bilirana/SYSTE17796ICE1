@@ -29,6 +29,6 @@ public class AssignmentExercise {
     public static void main(String[] args) {
         double [] temps = {-4,-9,-7,-11,-8,-12,-3,-11,1,-4,1,-5,-1,-6};
         System.out.printf("Average: %.2f%n",calcAvg(temps));
-    }
+    } //this is my edit
     
 }
