@@ -26,9 +26,20 @@ public class AssignmentExercise {
         double average = sum / overall;
         return average;
     }
+    public static double calcMax(double [] temps){
+        double max = 0;
+        for(int i=0; i< temps.length; i++ ) {
+         if(temps[i]>max) {
+            max = temps[i];
+         }
+      }
+      return max;
+    }
+            
     public static void main(String[] args) {
         double [] temps = {-4,-9,-7,-11,-8,-12,-3,-11,1,-4,1,-5,-1,-6};
         System.out.printf("Average: %.2f%n",calcAvg(temps));
+        System.out.println("Max temp: " + calcMax(temps));
     } //this is my edit
     
 }
